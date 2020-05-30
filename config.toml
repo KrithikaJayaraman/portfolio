@@ -3,3 +3,268 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-devresume-theme"
 
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+enableEmoji = true
+
+
+
+
+
+[params]
+    author = ""
+    description = ""
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Krithika Jayaraman"
+        tagline = "MS Business Analytics | Data Science | Business Intelligence"
+        avatar = "My site photo.jpg"
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Greater Seattle Area, Washington"
+
+        [[params.contact.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/krithika-jayaraman"
+        title = "LinkedIn Profile"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:connect.krithi@gmail.com"
+        text = "connect.krithi@gmail.com"
+        
+        [[params.contact.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/KrithikaJayaraman"
+        text = "GitHub Profile"
+        
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python | R | SAS"
+        [[params.skills.list.items]]
+        details = "Tableau | Power BI"
+        [[params.skills.list.items]]
+        details = "MS Excel Simulation | RISK Optimizer"
+        [[params.skills.list.items]]
+        details = "SQL | Hadoop | Spark"
+        [[params.skills.list.items]]
+        details = "Linux Shell Scripting | Web Scraping"
+        [[params.skills.list.items]]
+        details = "ETL | Informatica"
+
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MS Business Analytics, Data Science"
+        university = "University of Cincinnati"
+        dates = "2019 - 2020"
+        [[params.education.list]]
+        degree = "Bachelor of Engg. in Electronics and Communication"
+        university = "Anna University"
+        dates = "2007 - 2011"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Star Performer"
+        body = "TCS"
+        date = "2016"
+        [[params.awards.list]]
+        name = "Award of Excellence"
+        body = "TCS"
+        date = "2014"
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Hiking"
+        [[params.interests.list]]
+        name = "Singing"
+        [[params.interests.list]]
+        name = "Travelling"
+        [[params.interests.list]]
+        name = "Dancing"
+
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Hello! I'm Krithika. Having worked for five years in the field for Business Intelligence, handling rich datasets for Hartford Insurance Group and Virgin Media Inc., I embarked on a journey to explore data science. I'm graduating from a Master's in Business Analytics and Data Science Program from University of Cincinnati in Summer 2020. I'm passionate about digging data and building models to make informed business decisions."
+
+        
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Graduate Assistant"
+        dates = "Jan 2020 - Mar 2020"
+        company = "University of Cincinnati"
+        details = "Analysed University Data using SAS and MS Excel to extract insights and patterns on undergraduate and graduate enrollment at UC and build Tableau Dashboard for presentation."
+
+        [[params.experience.list]]
+        title = "Senior Business Intelligence Analyst"
+        dates = "2014 - 2017"
+        company = "TCS"
+        details = ""
+        [[params.experience.list.items]]
+        details = "Designed and developed an Enterprise Data Warehouse for Virgin Media, integrating cable and web data of the Video-on-Demand Offering (net worth $2M USD) to build dashboards on the end users' Quality of Experience and Quality of Service(QoS)."
+        [[params.experience.list.items]]
+        details = "Mined customer usage data of  Virgin Media’s Cable, mobile and Broadband platforms  and estimated incentive points/commissions for agents."
+        [[params.experience.list.items]]
+        details = "Designed and developed an Enterprise General Ledger for the integration of 50 sources generating STAT and GAAP finance data for Hartford Insurance Group. The ETL based implementation enabled high RoI by decreasing the maintenance cost by 50% during monthly financial close (approx. 8 million USD per annum)."
+
+        [[params.experience.list]]
+        title = "Senior ETL Developer"
+        dates = "2012 - 2014"
+        company = "TCS"
+        details = "Developed Operational Data Store for the Hartford Insurance Group and migrated data and logic from a mainframe system to an Oracle-ETL framework for enhanced data quality and consistency."
+
+       
+
+    [params.projects]
+        enable = true
+        [[params.projects.list]]
+        tagline = "Check out my projects on github :)"
+        icon = "fab fa-twitter-square"
+        url = "//github.com/KrithikaJayaraman"
+        
+
+        [[params.projects.list]]
+        title = "Instacart Masket Basket Analysis"
+        meta = "Kaggle: Instacart Market Basket Analysis"
+        tagline = "Dig into retail data and identify customer purchase patterns using Python"
+
+        
+        [[params.projects.list]]
+        title = "Topic Modelling (NLP)"
+        meta = "Kaggle: Quora Question Pairs"
+        tagline = "Identifying latent topics that underlie Quora questions using Latent Dirichlet Analysis (LDA)"
+
+        [[params.projects.list]]
+        title = "UBER Stock price Analysis and Forecast in R"
+        meta = "Open Source"
+        tagline = "Predicting UBER stock price with historic data using ARIMA Modelling"
+        
+        
+        [[params.projects.list]]
+        title = "Real-estate Investment Cash Flow Analysis using MS Excel and RISK Optimizer"
+        meta = "Open Source"
+        tagline = "The objective of this project is to evaluate a couple of real estate assets that are considered for investment. We use Discounted Cash Flow model coupled with Monte Carlo Simulation to estimate the Net Present Value (NPV) of the properties under consideration and thereby identify which one is an attractive opportunity."
+
+        
+        
+        [[params.projects.list]]
+        title = "Rental Property Investment Analysis in Python"
+        meta = "Open Source"
+        tagline = "Given AirBnB rentals info and Zillow housing price estimates for New York City, the objective of the project is to identify the most profitable zipcodes for rental investments in NYC."
+
+        
+        [[params.projects.list]]
+        title = "Landing Distance for Flight Data - Regression Analysis"
+        meta = "Open Source"
+        tagline = "Identifying what factors affect the landing distance of flights. By doing a regression study, we identify what factors contribute to landing overrun."
+        
+        [[params.projects.list]]
+        title = "International Visitors to the US - An interactive Viz"
+        meta = "Open Source"
+        
+        [[params.projects.list]]
+        title = "Consumer Spending by Generation - Viz"
+        meta = "data.world"
+        tagline = "How does consumer spending compare between generations? Perhaps a Tableau Viz could explain!"
+        
+        [[params.projects.list]]
+        title = "Diversity in Workplace"
+        meta = "data.world"
+        tagline = "Take a look at diversity trends in workplace. "
+        
+        [[params.projects.list]]
+        title = "Animations in R"
+        meta = "Our World in Data"
+        tagline = "This is a part of a series 'My Experiments with R'. Check out the cool animations in R."
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/KrithikaJayaraman"
+        title = "KrithikaJayaraman"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/krithika-jayaraman"
+        title = "krithika-jayaraman"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/KrithiJay"
+        title = "@KrithiJay"
+
+
+
+
+
